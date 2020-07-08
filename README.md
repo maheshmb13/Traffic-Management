@@ -19,8 +19,8 @@
 
 * [About the Project](#about-the-project)
 * [Features](#Features)
-* [Detection using Mask-RCNN](#Detection using Mask-RCNN)
-* [Detection using Yolo](#Detection using Yolo-v3)
+* [Detection using Mask-RCNN](#Detection-using-Mask-RCNN)
+* [Detection using Yolo](#Detection-using-Yolo-v3)
 * [Detection using dimensions of number plate](#Detection using dimensions of number plate)
 * [Detection using Cascade features](#Detection using cascade features)
 * [OCR for license plate recognition](#OCR model)

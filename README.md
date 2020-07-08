@@ -45,12 +45,13 @@ We tested some best ways available for licence plate detection.
 
 ### Features
 **Licence plate detection**:
-* Yolo-v3
-* MasK-RCNN
-* Dimensions based
-* Cascade features
-**Speed Detection**
-**Recognition using ocr**
+  * Yolo-v3
+  * MasK-RCNN
+  * Dimensions based
+  * Cascade features 
+  <br/>
+**Speed Detection** <br/>
+**Recognition using OCR**
 
 
 ### Detection using Mask-RCNN
@@ -59,17 +60,67 @@ Instance image segmentation
 
 The Colab version for training and testing is provided.
 
-**Training**
-We collected over 400 images of indian cars with number plates.
+**Training** <br/>
+We collected over 400 images of indian cars with number plates. <br/>
 Annotated using [VGG image annotator](https://www.robots.ox.ac.uk/~vgg/software/via/via-1.0.1.html)
 
-**Advantages**
-It classifies each pixel into pre-defined categories. This helps removing the edges of the number plate image which inturn helps in ocr recognition.
+**Advantages** <br/>
+It classifies each and every pixel into pre-defined categories. This helps removing the edges of the number plate image which inturn helps in ocr recognition.
 
 It gave good accuracy though the data is very low in number.
 
-**Disadvantages**
-Slow and cannot be used in real time.
+**Disadvantages** <br/>
+Slow and not suitable for real time usage.
+
+
+
+### Detection using Yolo-v3
+
+Single shot detection
+
+The Colab version for training is provided.
+
+**Training** <br/>
+Since we need around 2k images for better results, we did it for belgian cars dataset (around 1600 images) <br/>
+Annotated using [Yolo-Annotation-Tool-New](https://github.com/ManivannanMurugavel/Yolo-Annotation-Tool-New-)
+
+**Advantages** <br/>
+Single shot detection. Speed and reliable.
+It is suitable for real time usage.
+
+It gave better results on training data. Coming to testing data it failed for some images. Though we provided very low dataset Mask-RCNN gave better results than yolo-v3 for small object detection (number plate).
+
+**Disadvantages** <br/>
+Needs a large dataset.
+
+
+
+### Detection using dimensions of number plate
+
+We hard-coded the approximate dimensions of number plate. 
+
+The Colab version for training is provided.
+
+```sh
+plate_dimensions = (0.03*label_image.shape[0], 0.08*label_image.shape[0], 0.15*label_image.shape[1], 0.3*label_image.shape[1])
+plate_dimensions2 = (0.08*label_image.shape[0], 0.2*label_image.shape[0], 0.15*label_image.shape[1], 0.4*label_image.shape[1])
+min_height, max_height, min_width, max_width = plate_dimensions
+```
+
+**Training** <br/>
+Since we need around 2k images for better results, we did it for belgian cars dataset (around 1600 images) <br/>
+Annotated using [Yolo-Annotation-Tool-New](https://github.com/ManivannanMurugavel/Yolo-Annotation-Tool-New-)
+
+**Advantages** <br/>
+Single shot detection. Speed and reliable.
+It is suitable for real time usage.
+
+It gave better results on training data. Coming to testing data it failed for some images. Though we provided very low dataset Mask-RCNN gave better results than yolo-v3 for small object detection (number plate).
+
+**Disadvantages** <br/>
+Needs a large dataset.
+
+
 
 
 ### Installation

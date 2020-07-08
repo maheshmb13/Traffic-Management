@@ -1,12 +1,12 @@
-#Mask R-CNN
+# Mask R-CNN
 
-Recommended - Please follow official repository!
+**Please follow official repository for installation**
 
-#Training:
-• Create a folder samples and insert your data into samples folder.
+**Annotation**:
+VGG image annotator
 
-#Annotator
-• VGG image annotator (VIA)
+**Training and Testing**:
+Place your dataset in samples folder of root directory.
 
-#Detection
-• Visit  
+**Colab file is attached. Do visit for better understanding**
+

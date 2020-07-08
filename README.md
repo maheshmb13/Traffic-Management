@@ -43,13 +43,13 @@ Here's why:
 We tested some best ways available for licence plate detection.
 
 ### Features
-* [Licence plate detection]
-  * [Yolo-v3]
-  * [MasK-RCNN]
-  * [Dimensions based]
-  * [Cascade features]
-* [Speed Detection]
-* [Recognition using OCR]
+* Licence plate detection
+  * Yolo-v3
+  * MasK-RCNN
+  * Dimensions based
+  * Cascade features
+* Speed Detection
+* Recognition using OCR
 
 
 <br/>

@@ -61,7 +61,9 @@ Instance image segmentation
 Results : <br/>
 <img src="images/mask.png"/>
 
-The Colab version for training and testing is provided.
+The Colab version for training and testing is provided [here](https://github.com/maheshmb13/Traffic-Management/blob/master/Detection%20using%20Mask-RCNN/maskmain.ipynb).
+
+Model weights (mask_rcnn_plate_0134.h5) are available [here](https://github.com/maheshmb13/Traffic-Management/tree/master/Detection%20using%20Mask-RCNN).
 
 **Training** <br/>
 We collected over 400 images of indian cars with number plates. <br/>
@@ -85,7 +87,11 @@ Single shot detection
 Results : <br/>
 <img src="images/yolo.png"/>
 
-The Colab version for training is provided.
+
+
+The Colab version for training is provided [here](https://github.com/maheshmb13/Traffic-Management/blob/master/Detection%20using%20Yolo/detect.py).
+
+Model weights (yolov3_1000.weights) are available [here](https://github.com/maheshmb13/Traffic-Management/tree/master/Detection%20using%20Yolo).
 
 **Training** <br/>
 Since we need around 2k images for better results, we did it for belgian cars dataset (around 1600 images) <br/>
@@ -113,7 +119,7 @@ We hard-coded the approximate dimensions of number plate.
 Results : <br/>
 <img src="images/dimensions.png"/>
 
-The Colab version for training is provided.
+Click [here](https://github.com/maheshmb13/Traffic-Management/tree/master/Detection%20using%20dimensions) to navigate to the folder.
 
 ```sh
 plate_dimensions = (0.03*label_image.shape[0], 0.08*label_image.shape[0], 0.15*label_image.shape[1], 0.3*label_image.shape[1])
@@ -136,6 +142,8 @@ Using haar-cascades.
 Results : <br/>
 <img src="images/haar.png"/>
 
+Click [here](https://github.com/maheshmb13/Traffic-Management/tree/master/Licence%20Plate%20Recognition) to navigate to the folder.
+
 The xml files are provided in the respective directory.
 Use opencv cascade classifier for testing purpose
 
@@ -148,13 +156,13 @@ It is not as accurate as object detection using neural nets. Providing good bala
 
 ### OCR model
 
-The trained model is provided.
+Click [here](https://github.com/maheshmb13/Traffic-Management/tree/master/Licence%20Plate%20Recognition) to navigate to the folder. Model weights (ocrmodel.h5) are available in the directory.
 
 We collected 9 images of each character from internet.
 
 We created a basic CNN model using keras with categorical crossentropy loss. Trained it over the dataset (0-9 & A-Z characters).
 
-Pre-processing of test data like character segmentation, finding contours etc. are provided [here](License Plate Recognition/)
+Pre-processing of test data like character segmentation, finding contours etc. are provided [here](https://github.com/maheshmb13/Traffic-Management/tree/master/Licence%20Plate%20Recognition)
 
 A jupyter version is also provided for training and testing.
 

@@ -1,4 +1,3 @@
-[![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -7,11 +6,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Traffic Management</h3>
 
   <p align="center">
     An awesome README template to jumpstart your projects!
@@ -35,14 +30,12 @@
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
+* [Detection using Mask-RCNN](#acknowledgements)
+* [Detection using Yolo](#Yolo)
+* [Detection using dimensions of number plate](#acknowledgements)
+* [Detection using Cascade features](#acknowledgements)
+* [OCR for license plate recognition](#acknowledgements)
+* [Speed Detection](#acknowledgements)
 
 
 

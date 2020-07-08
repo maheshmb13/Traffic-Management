@@ -18,14 +18,13 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-* [Detection using Mask-RCNN](#acknowledgements)
-* [Detection using Yolo](#Yolo)
-* [Detection using dimensions of number plate](#acknowledgements)
-* [Detection using Cascade features](#acknowledgements)
-* [OCR for license plate recognition](#acknowledgements)
-* [Speed Detection](#acknowledgements)
+* [Features](#Features)
+* [Detection using Mask-RCNN](#Detection using Mask-RCNN)
+* [Detection using Yolo](#Detection using Yolo-v3)
+* [Detection using dimensions of number plate](#Detection using dimensions of number plate)
+* [Detection using Cascade features](#Detection using cascade features)
+* [OCR for license plate recognition](#OCR model)
+* [Speed Detection](#Speed detection using cameras)
 
 
 
@@ -44,14 +43,15 @@ Here's why:
 We tested some best ways available for licence plate detection.
 
 ### Features
-•**Licence plate detection**:
-  * Yolo-v3
-  * MasK-RCNN
-  * Dimensions based
-  * Cascade features 
- 
-•**Speed Detection** <br/>
-•**Recognition using OCR**
+  •**Licence plate detection**:
+    * Yolo-v3
+    * MasK-RCNN
+    * Dimensions based
+    * Cascade features 
+
+  •**Speed Detection** <br/>
+  •**Recognition using OCR**
+
 
 <br/>
 
@@ -74,6 +74,7 @@ It gave good accuracy though the data is very low in number.
 Slow and not suitable for real time usage.
 
 
+<br/>
 
 ### Detection using Yolo-v3
 
@@ -98,6 +99,7 @@ It gave better results on training data. Coming to testing data it failed for so
 Needs a large dataset.
 
 
+<br/>
 
 ### Detection using dimensions of number plate
 
@@ -117,6 +119,7 @@ Range of dimensions are given.
 It doesn't work in all conditions. Only a few set of angles work fine.
 
 
+<br/>
 
 ### Detection using cascade features
 
@@ -130,6 +133,7 @@ It gives good results but doesn't work in low light conditions. Works fine only 
 It is not as accurate as object detection using neural nets. Providing good balanced data (negative and positive samples) would give better results.
 
 
+<br/>
 
 ### OCR model
 
@@ -144,6 +148,7 @@ Pre-processing of test data like character segmentation, finding contours etc. a
 A jupyter version is also provided for training and testing.
 
 
+<br/>
 
 ### Speed detection using cameras
 

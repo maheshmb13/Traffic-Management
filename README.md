@@ -58,6 +58,7 @@ We tested some best ways available for licence plate detection.
 
 Instance image segmentation
 
+Results : <br/>
 <img src="images/mask.png"/>
 
 The Colab version for training and testing is provided.
@@ -81,6 +82,7 @@ Slow and not suitable for real time usage.
 
 Single shot detection
 
+Results : <br/>
 <img src="images/yolo.png"/>
 
 The Colab version for training is provided.
@@ -108,6 +110,7 @@ Needs a large dataset.
 
 We hard-coded the approximate dimensions of number plate. 
 
+Results : <br/>
 <img src="images/dimensions.png"/>
 
 The Colab version for training is provided.
@@ -130,6 +133,7 @@ It doesn't work in all conditions. Only a few set of angles work fine.
 
 Using haar-cascades.
 
+Results : <br/>
 <img src="images/haar.png"/>
 
 The xml files are provided in the respective directory.

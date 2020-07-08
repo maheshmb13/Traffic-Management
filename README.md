@@ -2,23 +2,13 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-
-<!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <h3 align="center">Traffic Management</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    License Plate Recognition and Speed detection using camera. 
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
 </p>
 
@@ -42,40 +32,45 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="https://www.milesight.com/structure/image/show-page/lpr-camera/4.png"/>
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
+Automatic number-plate recognition can be used to store the images captured by the cameras as well as the text from the license plate.
 
 Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+* Secure an area, such as a military base or research facility.
+* Find a stolen vehicle or car involved in a crime.
+* Monitor gated entrances & parking lot traffic.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+We tested some best ways available for licence plate detection.
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+### Features
+**Licence plate detection**:
+* Yolo-v3
+* MasK-RCNN
+* Dimensions based
+* Cascade features
+**Speed Detection**
+**Recognition using ocr**
 
-### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
 
+### Detection using Mask-RCNN
 
+Instance image segmentation
 
-<!-- GETTING STARTED -->
-## Getting Started
+The Colab version for training and testing is provided.
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+**Training**
+We collected over 400 images of indian cars with number plates.
+Annotated using [VGG image annotator](https://www.robots.ox.ac.uk/~vgg/software/via/via-1.0.1.html)
 
-### Prerequisites
+**Advantages**
+It classifies each pixel into pre-defined categories. This helps removing the edges of the number plate image which inturn helps in ocr recognition.
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
+It gave good accuracy though the data is very low in number.
+
+**Disadvantages**
+Slow and cannot be used in real time.
+
 
 ### Installation
 

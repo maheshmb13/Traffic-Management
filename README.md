@@ -87,9 +87,7 @@ Single shot detection
 Results : <br/>
 <img src="images/yolo.png"/>
 
-
-
-The Colab version for training is provided [here](https://github.com/maheshmb13/Traffic-Management/blob/master/Detection%20using%20Yolo/detect.py).
+The file for testing is provided [here](https://github.com/maheshmb13/Traffic-Management/blob/master/Detection%20using%20Yolo/detect.py).
 
 Model weights (yolov3_1000.weights) are available [here](https://github.com/maheshmb13/Traffic-Management/tree/master/Detection%20using%20Yolo).
 

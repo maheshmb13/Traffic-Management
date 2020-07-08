@@ -79,6 +79,8 @@ Slow and not suitable for real time usage.
 
 Single shot detection
 
+<img src="images/yolo.png"/>
+
 The Colab version for training is provided.
 
 **Training** <br/>

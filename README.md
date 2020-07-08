@@ -21,10 +21,10 @@
 * [Features](#Features)
 * [Detection using Mask-RCNN](#Detection-using-Mask-RCNN)
 * [Detection using Yolo](#Detection-using-Yolo-v3)
-* [Detection using dimensions of number plate](#Detection using dimensions of number plate)
-* [Detection using Cascade features](#Detection using cascade features)
-* [OCR for license plate recognition](#OCR model)
-* [Speed Detection](#Speed detection using cameras)
+* [Detection using dimensions of number plate](#Detection-using-dimensions-of-number-plate)
+* [Detection using Cascade features](#Detection-using-cascade-features)
+* [OCR for license plate recognition](#OCR-model)
+* [Speed Detection](#Speed-detection-using-cameras)
 
 
 

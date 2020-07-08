@@ -154,7 +154,7 @@ We collected 9 images of each character from internet.
 
 We created a basic CNN model using keras with categorical crossentropy loss. Trained it over the dataset (0-9 & A-Z characters).
 
-Pre-processing of test data like character segmentation, finding contours etc. are provided [here](License Plate Recognition)
+Pre-processing of test data like character segmentation, finding contours etc. are provided [here](License Plate Recognition/)
 
 A jupyter version is also provided for training and testing.
 

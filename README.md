@@ -40,10 +40,10 @@ Here's why:
 * Find a stolen vehicle or car involved in a crime.
 * Monitor gated entrances & parking lot traffic.
 
-We tested some best ways available for licence plate detection.
+We tested some best ways available for license plate detection.
 
 ### Features
-* Licence plate detection
+* License plate detection
   * Yolo-v3
   * MasK-RCNN
   * Dimensions based

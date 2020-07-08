@@ -58,6 +58,8 @@ We tested some best ways available for licence plate detection.
 
 Instance image segmentation
 
+<img src="images/mask.png"/>
+
 The Colab version for training and testing is provided.
 
 **Training** <br/>
@@ -106,6 +108,8 @@ Needs a large dataset.
 
 We hard-coded the approximate dimensions of number plate. 
 
+<img src="images/dimensions.png"/>
+
 The Colab version for training is provided.
 
 ```sh
@@ -125,6 +129,8 @@ It doesn't work in all conditions. Only a few set of angles work fine.
 ### Detection using cascade features
 
 Using haar-cascades.
+
+<img src="images/haar.png"/>
 
 The xml files are provided in the respective directory.
 Use opencv cascade classifier for testing purpose

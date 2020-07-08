@@ -1,4 +1,4 @@
-[![Issues]][issues-url]
+[![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -162,6 +162,7 @@ We assume camera to be static.
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/mahesh-babu-60641016a
 [issues-url]: https://github.com/maheshmb13/Traffic-Management/issues
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
 
 
 

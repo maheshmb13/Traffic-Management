@@ -178,5 +178,6 @@ We assume camera to be static.
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
 
 
+<br/>
 
-⚠️This is a basic project and not useful for production. We followed many blogs and data is collected from kaggle, google images and some repos.
+*⚠️This is a basic project and not useful for production. We followed many blogs and data is collected from kaggle, google images and some repos.

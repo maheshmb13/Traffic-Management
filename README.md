@@ -44,15 +44,16 @@ Here's why:
 We tested some best ways available for licence plate detection.
 
 ### Features
-**Licence plate detection**:
+•**Licence plate detection**:
   * Yolo-v3
   * MasK-RCNN
   * Dimensions based
   * Cascade features 
  
-**Speed Detection** <br/>
-**Recognition using OCR**
+•**Speed Detection** <br/>
+•**Recognition using OCR**
 
+<br/>
 
 ### Detection using Mask-RCNN
 

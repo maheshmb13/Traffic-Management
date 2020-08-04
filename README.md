@@ -31,7 +31,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="https://www.milesight.com/structure/image/show-page/lpr-camera/4.png"/>
+<img src="https://cdn.shopify.com/s/files/1/0052/1270/0743/files/4_grande.png?v=1567136955"/>
 
 Automatic number-plate recognition can be used to store the images captured by the cameras as well as the text from the license plate.
 
